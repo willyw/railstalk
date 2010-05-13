@@ -1,0 +1,71 @@
+pre {
+background:none repeat scroll 0 0 #FFFFFF;
+border:1px dashed #ABABAB;
+font-family:monospace;
+font-size:12px;
+margin-bottom:1.5em;
+overflow:auto;
+padding:1em 10px;
+}
+code {
+font-family:monospace;
+font-size:1em;
+}
+#content code.ruby span.comment {
+color:#999999;
+}
+#content code.ruby span.string {
+color:#CC0000;
+}
+#content code.ruby span.brackets {
+}
+#content code.ruby span.symbol {
+color:#0000CC;
+}
+#content code.ruby span.keywords {
+color:#009900;
+}
+#content code.javascript span.comment {
+color:#999999;
+}
+#content code.javascript span.string {
+color:#CC0000;
+}
+#content code.javascript span.brackets {
+}
+#content code.javascript span.symbol {
+color:#0000CC;
+}
+#content code.javascript span.keywords {
+color:#009900;
+}
+#content code.html span.comment {
+color:#999999;
+}
+#content code.html span.string {
+color:#CC0000;
+}
+#content code.html span.tag {
+color:#009900;
+}
+#content code.html span.attribute {
+color:#CC0000;
+}
+#content code.html span.doctype {
+color:#996600;
+}
+#content code.css span.comment {
+color:#999999;
+}
+#content code.css span.keywords {
+color:#0000CC;
+}
+#content code.css span.selectors {
+color:#CC0000;
+}
+#content code.css span.properties {
+color:#009900;
+}
+#content code.css span.units {
+color:#0000CC;
+}

@@ -1,0 +1,107 @@
+body { font-family: Helvetica, Arial; width: 1000px; /*border:1px solid black;*/ margin: 0 auto; background: url("../images/logo.png") no-repeat scroll -150px -238px transparent; position: relative; }
+div#wrapper { min-width: 1000px; /*padding-left: 50px;*/ /*border:1px solid pink; */position:absolute;}
+a.logo-wrapper {background: url("../images/preserve_03.jpg") no-repeat scroll 50% -20% black; display:block; height:96px; left:250px; position: absolute; top:-130px;  width:500px; /*border:1px solid black;*/ }
+h1#logo { border:1px solid green; /*width: 500px; */height: 96px; position: absolute; background: url("../images/preserve_03.jpg") no-repeat 50% -20%; ;top: 0; width:500px; height:96px;left:250px; top: -130px; display:none;}
+h1#logo span { display:none;}
+ul { list-style :none; margin-left: 1px;}
+div#header { width:230px; /*border: 1px solid black;*/ float:left; position:relative;  /*border:1px solid black;*/ top:160px;}
+ul#nav { margin-left: 25px; list-style: none; margin-top: 200px;  }
+ul#nav li { color: rgb(102,102,102); font-size: 18px; line-height: 40px; font-weight: normal;}
+ul#nav li a { text-decoration: none; color: rgb(102,102,102); }
+div#tag { margin-left: 25px; margin-top: 20px;}
+div#tag span { font-size: 20px ;  color: rgb(102,102,102);font-weight: normal; }
+div#tag ul { margin-left: 0px; color: rgb(102,102,102); margin-top: 8px;}
+div#tag ul li { line-height: 22px; color: rgb(153,153,153);}
+div#content { margin-left: 250px; width:500px; /*border:1px solid black;*/ margin-top:180px; margin-bottom: 50px;}
+div#sidebar { float:left; display:inline; margin-left:25px;}
+div#sidebar h2 { display:inline; /*border:1px solid black;*/ color:rgb(102,102,102); font-size: 18px; line-height:40px; font-weight:normal;}
+
+
+div.entry{ color: rgb(151,153,162); margin-top: 35px;  margin-bottom: 30px;}
+div.entry h2 { display: inline; margin-top: 0;}
+div.entry h2 a { text-decoration: none; color: #5B6587; font-size:14px; font-weight: bold; height: 23px; line-height:28px; margin-bottom: 11px;}
+div.entry-header { /*margin-bottom: 20px;*/ /*border: 1px solid purple;*/ margin-bottom:20px;}
+div.entry-header p.date { float:left; background: url("../images/date_container.png") no-repeat; height:50px; width:50px; text-align: center; color: rgb(255,255,255); position: relative;}
+div.entry-header p.date span.day { display: block; font-size: 30px; margin-top: 4px;  /*border:1px solid black; */height:24px;}
+
+
+
+div.entry-header p.date span.month-year { display: block; font-size: 10px;  font-weight:normal ;  /*border: 1px solid black;*/ position: relative; top:5px;}
+*html div.entry-header p.date span.month-year{ display: block; font-size: 10px;  font-weight:normal ;  position: relative; top:-5px;}
+div.entry-header div.entry-title { margin-left: 65px; /*margin-top: 6px; *//*padding-top: 5px;*/}
+div.entry-title h2 { margin-top: 0; display:inline;}
+div.entry-title p { font-size: 10px; margin-top: 12px;}
+div.entry-title p span.info { margin-right: 10px;}
+
+div.entry-title h2 a{ text-decoration:none; color: rgb(91,101,135); font-weight: bold; font-size: 28px; margin-bottom:15px; height:23px; line-height:28px; margin-bottom:11px;}
+
+span.explanation { color: rgb(151,153,162); font-weight:bold;}
+div.entry-body {line-height: 22px; margin-top:15px; margin-bottom: 8px; }
+div.entry-body a { color: rgb(150,150,150); text-decoration:none; font-weight: bold;}
+div.entry-body strong { color: rgb(100,100,100); font-weight: bold; }
+
+div.entry-body h2.sub-header { font-weight: bold; margin-top: 8px; margin-bottom: 8px;}
+
+
+/*styling the comments*/
+ol.commentlist { list-style: none;}
+ol.commentlist li { clear : both; margin-bottom: 30px;}
+ol.commentlist li span.date { color: rgb(200,200,200);}
+ol.commentlist li  div.comment-content { clear: both;}
+ol.commentlist li  div.comment-content p { line-height: 25px; font-family: Helvetica, Arial; color: rgb(150,150,150);}
+ol.commentlist li  div.comment-content p br{  margin-top:5px; margin-bottom: 5px;}
+
+ 
+h3#comments { margin-top: 50px; margin-bottom:50px; font-size:16px; font-weight:bold; color: rgb(100,100,100);}
+div.comment-author { display: block; margin-bottom:50px;}
+div.comment-author img.avatar { float: left; margin-right: 10px;}
+div.comment-author cite.fn { float: left; font-size: 25px; color: rgb(150,150,150); font-style:normal; line-height:28px; }
+div.comment-author cite.fn a.url { text-decoration : none; font-style:normal; color: rgb(150,150,150);}
+div.commentmetadata { display : block;}
+
+
+div#respond h3 { color: #646464; font-size:16px; font-weight: bold; margin-bottom:25px;}
+div#respond form label { color: rgb(150,150,150);}
+
+
+form#commentform div.input-left { /*border: 1px solid black;*/ background: url("../images/input-left.png") no-repeat scroll 27px 0px transparent;  position : relative; left: -25px; padding: 0px; width:300px; height:35px;}
+form#commentform div.input-left  input.comment-particulars { margin-bottom : 10px; background: url("../images/info.png") repeat-x scroll -60px -0px rgb(245,245,245); border: 0px solid #DCDCDC; height:26px; width:258px; font-size:12px; margin-left:35px; outline:none; color:#999; line-height:24px; position:absolute;} 
+form#commentform div.input-left div.input-right {background: url("../images/input-right.png") no-repeat scroll 0px 0px transparent; width:8px; height: 26px; position:absolute; top:0; right:0; } 
+/*div#respond form input#author { margin-bottom : 10px; background: url("../images/info.png") repeat-x scroll -60px -0px rgb(245,245,245); border: 0px solid #DCDCDC; height:26px; width:300px; font-size:15px;}*/
+/*div#respond form input#email { margin-bottom : 10px; background: url("../images/info.png") repeat-x scroll -60px -0px rgb(245,245,245); border: 0px solid #DCDCDC; height:26px; width:300px; font-size:15px;}
+div#respond form input#url { margin-bottom : 10px; background: url("../images/info.png") repeat-x scroll -60px -0px rgb(245,245,245); border: 0px solid #DCDCDC; height:26px; width:300px; font-size:15px;}*/
+div#respond form input#submit {  border: 0px solid #DCDCDC; background:url("../images/submit_body.png") repeat-x scroll 0 0 transparent; color: #646464;  height:42px; width:130px;border: 0px solid #DCDCDC; cursor: pointer; margin-left: 8px; position:absolute;}
+div#respond form textarea#comment { background: url("../images/text-body.png") repeat-x scroll -60px -0px rgb(245,245,245); border: 0px solid #DCDCDC; height:195px; color: #999; font-size:12px; outline: none;padding-top:5px; resize: none; margin-left: 35px; width:436px; position:absolute;}
+
+
+div#respond form div.text-left {/* border: 1px solid black;*/ background: url("../images/text-area_left.png") no-repeat scroll 27px 0px transparent;  position : relative; left: -25px; padding: 0px; width:479px; height:200px;} 
+div#respond form div.text-left div.text-right {background: url("../images/text-area_right.png") no-repeat scroll 0px 0px transparent; width:8px; height: 200px; position:absolute; top:0; right:0; font-family: Helvetica;} 
+
+form#commentform div.submit-comment { /*border: 1px solid black;*/ background: url("../images/submit_left.png") no-repeat scroll 0px 0px transparent;  position : relative; left: -25px; padding: 0px; width:146px; margin-left: 24px; margin-top: 16px; height:42px;}
+form#commentform div.submit-comment span {background: url("../images/submit_right.png") no-repeat scroll 0px 0px transparent; position: absolute; right:0px ; width:8px; height: 42px;}
+/*styling the footer*/
+div#footer { width: 1000px; position: relative;}
+div#footer  span { /*margin-left: 250px;*/ color: rgb(150,150,150); position: absolute; left: 25%; padding-bottom:20px;}
+
+/*for the color-coder plugin */
+div.codecolorer-container { margin-top: 25px; margin-bottom: 25px;}
+
+form#searchform input#s { background: url("../images/info.png") repeat-x scroll -60px 0 #000000; border: 0px solid #DCDCDC; height:26px; width:140px; font-size:12px; color: rgb(150,150,150); margin-left:26px; padding:0px; outline:none; line-height:24px; /*border:1px solid purple;*/ position:absolute; top:7px;}
+form#searchform div.input-left { /*border: 1px solid black;*/ background: url("../images/search_logo.png") no-repeat scroll 0 7px transparent;  position : relative; left: -8px; padding: 0px; height:45px;}
+form#searchform div.input-left  input#searchsubmit {  background: url("../images/search_left_round.png") no-repeat scroll 0 7px transparent;  border:0px solid black; height:42px; position:absolute; width:16px; right:24px; top:0px;} 
+
+/*Tags*/
+ul li.cat-item {color: rgb(150,150,150);}
+ul li.cat-item  a{ text-decoration: none;  color: rgb(150,150,150); }
+
+
+/*copy clipboard*/
+div.code-wrapper { position : relative; background: none;}
+span.copy-button { background: url("../images/copy_button.png") no-repeat scroll 0 0 ; width:37px; height:13px; position: absolute; right:4px; cursor: pointer; display:inline; z-index: 98; top:4px;}
+pre {  display: block;position: relative; border: 1px solid rgb(204,204,204); /*margin-top:50px;*/ /*background-color: black;*/ /*background: rgb(150,150,150);*/ margin-bottom:0px; margin-top:30px;}
+div.flash { cursor: pointer;}
+div.flash embed { position: relative; top:-3px; cursor: pointer; /*border:1px solid black;*/}
+
+div#tiptip_holder { margin-left: 675px !important; }
+
+div.tipsy {left: 670px !important;}
